@@ -9,7 +9,7 @@
 * Maven Apache
 * NodeJs (the version used was 14.18.1)
 * Angular 12
-* MySql-Server
+* MySQL-Server
 
 ### Spring Dependencies
 * Spring Data JPA
