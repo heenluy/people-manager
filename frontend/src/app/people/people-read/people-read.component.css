@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+}
+
+.btn-container {
+    display: flex;
+    gap: 8px;
+}
+
+.edit > i {
+    color: #191919;
+    padding: 5px;
+    transition: 0.1s ease;
+}
+
+.edit > i:hover {
+    color: #673ab7;
+    border-radius: 100%;
+    background-color: rgba(103, 58, 183,0.5);
+}
+
+.delete > i {
+    color: #191919;
+    padding: 5px;
+    transition: 0.1s ease;
+}
+
+.delete > i:hover {
+    color: #f44336;
+    border-radius: 100%;
+    background-color: rgba(244, 67, 54, 0.5);
+
+}

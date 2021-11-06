@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header span {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 20px;
+}
+
+.header span a i {
+    padding-bottom: 1.5px;
+    padding-right: 3px;
+}

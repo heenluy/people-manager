@@ -1,0 +1,43 @@
+<mat-card>
+    <mat-card-title>New Person</mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Name" type="text"
+            [(ngModel)]="people.name" name="name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Gender" type="text"
+            [(ngModel)]="people.gender" name="gender">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Age" type="number"
+            [(ngModel)]="people.age" name="age">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Email" type="email"
+            [(ngModel)]="people.email" name="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Phone" type="text"
+            [(ngModel)]="people.phone" name="phone">
+        </mat-form-field>
+
+    </form>
+
+    <div class="btn-container">
+        <button mat-raised-button color="primary" class="btn-save" (click)="createPeople()">
+            Save
+        </button>
+            
+        <button mat-raised-button color="warn" class="btn-save" (click)="cancel()">
+                Cancel
+        </button>
+    </div>
+
+</mat-card>
+

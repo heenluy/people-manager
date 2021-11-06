@@ -1,0 +1,30 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened
+    fixedInViewport="true" fixedTopGap="64" fixedBottomGap="64">
+        <mat-nav-list>
+            <a mat-list-item class="nav-list middle" routerLink="/">
+                <i class="material-icons">
+                    home
+                </i>
+                Home
+            </a>
+            <a mat-list-item class="nav-list middle" routerLink="/pessoas">
+                <i class="material-icons view2">
+                    person_add_alt_1
+                </i>
+                Create
+            </a>
+            <a mat-list-item class="nav-list middle" routerLink="/pessoas/listar">
+                <i class="material-icons">
+                    view_list
+                </i>
+                List all
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
